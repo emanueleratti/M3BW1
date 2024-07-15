@@ -8,7 +8,69 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <div class="row m-2">
+        <div class="d-none d-md-block col-lg-6">
+          <!--tv show desktop display-->
+          <div class="d-flex align-items-start m-2">
+            <div class="col-2">
+                <p>10 Stays</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-none d-md-block col-lg-4 align-items-start d-flex ">
+            
+            <div><h3>Stays in Genova</h3></div> <div class="plus rounded-circle align-items-center justify-content-center">+</div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-4 d-flex align-items-start gap-3 mt-3">
+                <button>Avaible houses</button>
+                <button>Booked houses</button>
+                <button>All houses</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 align-items-start">
+                <p>Enter dates and number of guest to see the total price per night.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 align-items-start">
+                <p>Review COVID-19 travel restrictions before you book. Learn more.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="apartment-card-container">
+                <template id="apartment-card-template">
+                <div class="d-none d-md-block col-lg-4">
+                    <div class="top">
+                        <img src="" alt="">
+                    
+                    </div>
+                    <div class="bottom">
+                        <div class="d-flex">
+                            <h4 class="type bold"></h4>
+                            <span>•</span>
+                            <h4 class="city"></h4>
+                            <div>icon<h4 class="rating"></h4></div>
+                        </div>
+                        <p class="description"></p>
+                        <p class="beds"></p>
+                        <p class="host"></p>
+                        <div class="d-flex">
+                            <h4 class="price bold"></h4>
+                            <span>•</span>
+                            <h4 class="total-price"></h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                </template>
+            </div>
+        </div>
+          
+
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
