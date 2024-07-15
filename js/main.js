@@ -68,7 +68,6 @@ const cardCreation = (cardData) => {
     card.querySelector(".apartment-card .bottom .host").textContent = cardData.host;
     card.querySelector(".apartment-card .bottom .price").textContent = cardData.price;
     card.querySelector(".apartment-card .bottom .total-price").textContent = cardData.totalPrice;
-    section.appendChild(card);
     apartmentCardContainer.appendChild(card);
 }
 
