@@ -1,7 +1,7 @@
 const apartments = {
     genova: [
     {
-        img: "../assets/genova-1", 
+        img: "./assets/genova-1.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
@@ -11,7 +11,7 @@ const apartments = {
         totalPrice: 339
     },
     {
-        img: "../assets/genova-2", 
+        img: "./assets/genova-2.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
@@ -21,7 +21,7 @@ const apartments = {
         totalPrice: 339
     },
     {
-        img: "../assets/genova-3", 
+        img: "./assets/genova-3.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
@@ -31,7 +31,7 @@ const apartments = {
         totalPrice: 339
     },
     {
-        img: "../assets/genova-1", 
+        img: "./assets/genova-4.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
@@ -41,7 +41,7 @@ const apartments = {
         totalPrice: 339
     },
     {
-        img: "../assets/genova-1", 
+        img: "./assets/genova-5.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
