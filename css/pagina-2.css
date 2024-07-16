@@ -10,9 +10,16 @@
     box-sizing: border-box;
 }
 
-/* CUSTOM */
+p, h6 {
+    margin-bottom: unset;
+}
 
-.plus{
+.bold {
+    font-weight: 700;
+}
+
+/* CUSTOM */
+.plus {
     background-color: red;
     color: white;
     width: 20px;
@@ -23,20 +30,8 @@
     justify-content: center;
     padding: auto;
 }
-.btn,button{
-    border-radius: 50px !important;
-   
+
+.apartment-card .top {
+    height: 220px;
 }
 
-.top,img{
-    width: 250px;
-    height: 150px;
-    border-radius: 10%;
-}
-.bottom{
-    width: 250px;
-}
-
-.bottom,h4{
-    font-size: medium;
-}

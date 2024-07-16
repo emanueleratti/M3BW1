@@ -50,13 +50,53 @@ const apartments = {
         price: 179,
         totalPrice: 339
     },
+    {
+        img: "./assets/genova-5.jpeg", 
+        type: "Apartment",
+        city: "Rapallo",
+        rating: "4,86 (7)",
+        beds: "2 Letti",
+        host: "Stefania",
+        price: 179,
+        totalPrice: 339
+    },
+    {
+        img: "./assets/genova-5.jpeg", 
+        type: "Apartment",
+        city: "Rapallo",
+        rating: "4,86 (7)",
+        beds: "2 Letti",
+        host: "Stefania",
+        price: 179,
+        totalPrice: 339
+    },
+    {
+        img: "./assets/genova-5.jpeg", 
+        type: "Apartment",
+        city: "Rapallo",
+        rating: "4,86 (7)",
+        beds: "2 Letti",
+        host: "Stefania",
+        price: 179,
+        totalPrice: 339
+    },
+    {
+        img: "./assets/genova-5.jpeg", 
+        type: "Apartment",
+        city: "Rapallo",
+        rating: "4,86 (7)",
+        beds: "2 Letti",
+        host: "Stefania",
+        price: 179,
+        totalPrice: 339
+    },
+    
     ],
 }
 
 const apartmentCardTemplate = document.getElementById("apartment-card-template");
 const templateContent = apartmentCardTemplate.content;
 const apartmentCardContainer = document.querySelector(".apartment-card-container")
-
 
 const cardCreation = (cardData) => {
     const card = document.importNode(templateContent, true);
