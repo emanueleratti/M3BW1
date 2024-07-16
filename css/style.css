@@ -15,6 +15,28 @@
 .plus{
     background-color: red;
     color: white;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+.btn,button{
+    border-radius: 50px !important;
+   
+}
+
+.top,img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10%;
+}
+.bottom{
+    width: 250px;
+}
+
+.bottom,h4{
+    font-size: medium;
 }

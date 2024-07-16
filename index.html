@@ -10,28 +10,30 @@
 <body>
     <div class="row m-2">
         <div class="d-none d-md-block col-lg-6">
-          <!--tv show desktop display-->
-          <div class="d-flex align-items-start m-2">
+          <!--desktop display-->
+          <div class="d-flex align-items-start">
             <div class="col-2">
                 <p>10 Stays</p>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="d-none d-md-block col-lg-4 align-items-start d-flex ">
+          <div class="d-none d-md-block col-lg-5 align-items-start ">
+            <div class="d-flex gap-3 justify-content-start align-items-center m-3">
             
-            <div><h3>Stays in Genova</h3></div> <div class="plus rounded-circle align-items-center justify-content-center">+</div>
+            <div><h3>Stays in Genova</h3></div> <div class="plus">+</div>
+            </div>
           </div>
         </div>
         <div class="row">
-            <div class="col-4 d-flex align-items-start gap-3 mt-3">
-                <button>Avaible houses</button>
-                <button>Booked houses</button>
-                <button>All houses</button>
+            <div class="btn col-4 d-flex align-items-start justify-content-center gap-3 mt-3">
+                <button class="btn btn-outline-secondary rounded-pill">Avaible houses</button>
+                <button class="btn btn-outline-secondary rounded-pill">Booked houses</button>
+                <button class="btn btn-outline-secondary rounded-pill">All houses</button>
             </div>
         </div>
         <div class="row">
-            <div class="col-4 align-items-start">
+            <div class="col-4 align-items-start mt-3">
                 <p>Enter dates and number of guest to see the total price per night.</p>
             </div>
         </div>
@@ -40,16 +42,16 @@
                 <p>Review COVID-19 travel restrictions before you book. Learn more.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="apartment-card-container">
+        
+            <div class="row apartment-card-container">
                 <template id="apartment-card-template">
-                <div class="apartment-card d-none d-md-block col-lg-4">
+                <div class="d-none d-md-block col-lg-2 apartment-card">
                     <div class="top">
                         <img src="" alt="">
                     
                     </div>
-                    <div class="bottom">
-                        <div class="d-flex">
+                    <div class="bottom d">
+                        <div class="d-flex gap-1">
                             <h4 class="type bold"></h4>
                             <span>•</span>
                             <h4 class="city"></h4>
@@ -61,13 +63,14 @@
                         <div class="d-flex">
                             <h4 class="price bold"></h4>
                             <span>•</span>
-                            <h4 class="total-price"></h4>  
+                            <h4 class="total-price"></h4>
+                            
                         </div>
                     </div>
                 </div>
                 </template>
             </div>
-        </div>
+       
           
 
 
