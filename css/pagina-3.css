@@ -4,18 +4,16 @@
    justify-content: flex-end;
 }
 
-.foto .row{
-  max-height: 880px;
-}
-.foto .row .row{
-    height: 100%;
-    
-}
-ion-icon {
-  width: 48px;
-  height: 48px;
-  }
 
+ion-icon {
+ 
+  height: 100%;
+}
+
+  .icon-list{
+  
+    height: 50px;
+  }
 #star-float-card {
   color: pink;
   height: 30px;
@@ -25,4 +23,36 @@ ion-icon {
 
 .top-card {
   height: 70px;
+}
+
+
+#dateStart {
+  border: none;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+
+}
+
+#dateEnd {
+ border: none; 
+  border-left: solid 1px gray;
+  border-bottom: solid 1px gray;
+
+  
+}
+
+#guestText {
+  border-left: solid 1px gray;
+  
+}
+
+
+
+
+#floatInput {
+  border: solid 3px gray;
+  border-radius: 5px;
+}
+.btn-light {
+  background-color: pink;
 }
