@@ -1,37 +1,48 @@
 /* COLORS */
 :root {
-    --color-default: #FFDF7E;
+  --color-default: #ffdf7e;
 }
 
 /* GENERAL */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-p, h6 {
-    margin-bottom: unset;
+p,
+h6 {
+  margin-bottom: unset;
 }
 
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /* CUSTOM */
 .plus {
-    background-color: red;
-    color: white;
-    width: 20px;
-    height: 20px;
-    border-radius:50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: auto;
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
 }
 
 .apartment-card .top {
-    height: 220px;
+  height: max-content;
 }
 
+.apartment-card {
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+.apartment-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  z-index: 2;
+}
