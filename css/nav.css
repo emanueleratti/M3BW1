@@ -1,0 +1,43 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 0px;
+    font-weight: 400;
+}
+
+ion-icon {
+    color: white;
+    line-height: 0px;
+}
+
+a.globe ion-icon {
+    width: 16px;
+    height: 16px;
+}
+
+a.menu ion-icon {
+    width: 22px;
+    height: 22px;
+    color: grey;
+}
+
+a.user ion-icon {
+    width: 28px;
+    height: 28px;
+    color: grey;
+}
+
+.white {
+    color:white;
+}
+
+.grey {
+    color: grey!important;
+}
