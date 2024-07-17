@@ -86,8 +86,10 @@
          <div class="col-8">
           <div class=" mt-2 mt-sm-5 pt-2">
             <div class="d-flex align-items-center">
-              <ion-icon name="home-outline"></ion-icon>
-              <div class="ms-4">
+              <div class="icon-list">
+               <ion-icon name="home-outline"></ion-icon>
+              </div>
+               <div class="ms-4">
                 <h4 class="mb-2">House</h4>
                 <span class="fw-light text-secondary fw-bold"
                   >You will have the whole premise for you.</span
@@ -97,8 +99,10 @@
           </div>
           <div class=" mt-2 mt-sm-5 pt-3">
             <div class="d-flex align-items-center">
-              <ion-icon name="star-outline"></ion-icon>
-              <div class="ms-4">
+              <div class="icon-list">
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+                <div class="ms-4">
                 <h4 class="mb-2">Advanced Cleaning Methods.</h4>
                 <span class="fw-light text-secondary fw-bold"
                   >The host is committing to our 5-step cleaning process.</span
@@ -108,8 +112,10 @@
           </div>
           <div class=" mt-2 mt-sm-5 pt-3">
             <div class="d-flex align-items-center">
-              <ion-icon name="location-outline"></ion-icon>
-              <div class="ms-4">
+              <div class="icon-list">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>  
+                <div class="ms-4">
                 <h4 class="mb-2">Inverness</h4>
                 <span class="fw-light text-secondary fw-bold"
                   >5 Kilmore Rd</span
@@ -119,7 +125,9 @@
           </div>
           <div class=" mt-2 mt-sm-5 pt-3">
             <div class="d-flex align-items-center">
-              <ion-icon name="calendar-outline"></ion-icon>
+              <div class="icon-list">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
               <div class="ms-4">
                 <h4 class="mb-2">Cancellation Terms And Fees</h4>
                 <span class="fw-light text-secondary fw-bold"
@@ -131,8 +139,10 @@
           </div>
           <div class=" mt-2 mt-sm-5 pt-3">
             <div class="d-flex align-items-center">
-              <ion-icon name="book-outline"></ion-icon>
-              <div class="ms-4">
+              <div class="icon-list">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>  
+                <div class="ms-4">
                 <h4 class="mb-1">House Rules</h4>
                 <span class="fw-light text-secondary fw-bold"
                   >It's forbidden to host parties, bring animals, and
@@ -143,12 +153,26 @@
           </div>
          </div>
          <div class="col-4 ">
-          <div class="title-float-card d-flex justify-content-between p-2 gap-3 border-1">
+          <div class="floated-card shadow p-3 mb-5 bg-body rounded">
+          <div class="title-float-card d-flex justify-content-between p-2 gap-3 ">
             <h5>Add dates to see the prices</h5>
             <div class="d-flex justify-content-center ">
               <ion-icon name="star-sharp" id="star-float-card"></ion-icon>
               <p>4.0, 6 reviews</p>
             </div>
+          </div>
+          <div class="floated-card-input   ">
+
+            <div class="input-group d-flex" id="floatInput">
+              <input type="date" id="dateStart" name="dateStart" class="w-50 ">
+              <input type="date" id="dateEnd" name="dateEnd" class="w-50 ">
+              <input type="text" class="form-control w-100 " placeholder="Guests" id="guestText">
+            </div>
+            <div class="btnFloatedCard mt-3 align-content-center text-center">
+            <button type="button" class="btn btn-light w-100 text-light fs-4">Cancel Booking</button>
+          </div>
+          </div>  
+
           </div>
         </div>
       </div>
