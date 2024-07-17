@@ -4,13 +4,6 @@
    justify-content: flex-end;
 }
 
-.foto .row{
-  max-height: 880px;
-}
-.foto .row .row{
-    height: 100%;
-    
-}
 ion-icon {
   width: 48px;
   height: 48px;
