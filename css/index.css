@@ -19,4 +19,61 @@ font-size: 8px;
 .card-body:hover{
     transform: scale(1.2);
 }
+section{
+    background-image: url(../assets/home.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 70vh;
+}
 
+#titolo{
+    height: 70vh;
+}
+
+
+.title{
+    font-size: 100px;
+}
+
+.btnhead {
+    border-radius: 5px;
+    padding: 5px;
+    width: 170px;
+}
+.form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 70vh;
+
+}
+.inForm{
+   background-color: white;
+   width: 700px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+.button{
+    border-radius: 50%;   
+    padding:  8px;
+    font-size: 20px;
+    margin: 15px;
+    background-color: #a02929;
+}
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+  
