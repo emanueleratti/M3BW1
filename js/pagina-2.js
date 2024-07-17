@@ -1,24 +1,24 @@
 const apartments = {
     genova: [
     {
-        img: "./assets/genova-1.jpeg", 
+        img: "./assets/genova-6.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
         beds: "2 Letti",
         host: "Stefania",
-        price: 179,
-        totalPrice: 339
+        price: 179
+        
     },
     {
-        img: "./assets/genova-2.jpeg", 
+        img: "./assets/genova-8.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
         beds: "2 Letti",
         host: "Stefania",
-        price: 179,
-        totalPrice: 339
+        price: 179
+        
     },
     {
         img: "./assets/genova-3.jpeg", 
@@ -27,8 +27,8 @@ const apartments = {
         rating: "4,86 (7)",
         beds: "2 Letti",
         host: "Stefania",
-        price: 179,
-        totalPrice: 339
+        price: 179
+        
     },
     {
         img: "./assets/genova-4.jpeg", 
@@ -37,58 +37,58 @@ const apartments = {
         rating: "4,86 (7)",
         beds: "2 Letti",
         host: "Stefania",
-        price: 179,
-        totalPrice: 339
+        price: 179
+        
     },
     {
-        img: "./assets/genova-5.jpeg", 
+        img: "./assets/genova-7.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
         beds: "2 Letti",
         host: "Stefania",
-        price: 179,
-        totalPrice: 339
+        price: 179
+        
     },
     {
-        img: "./assets/genova-5.jpeg", 
+        img: "./assets/genova-6.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
         beds: "2 Letti",
         host: "Stefania",
-        price: 179,
-        totalPrice: 339
+        price: 179
+        
     },
     {
-        img: "./assets/genova-5.jpeg", 
+        img: "./assets/genova-3.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
         beds: "2 Letti",
         host: "Stefania",
-        price: 179,
-        totalPrice: 339
+        price: 179
+       
     },
     {
-        img: "./assets/genova-5.jpeg", 
+        img: "./assets/genova-7.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
         beds: "2 Letti",
         host: "Stefania",
-        price: 179,
-        totalPrice: 339
+        price: 179
+        
     },
     {
-        img: "./assets/genova-5.jpeg", 
+        img: "./assets/genova-4.jpeg", 
         type: "Apartment",
         city: "Rapallo",
         rating: "4,86 (7)",
         beds: "2 Letti",
         host: "Stefania",
-        price: 179,
-        totalPrice: 339
+        price: 179
+        
     },
     
     ],
@@ -107,7 +107,7 @@ const cardCreation = (cardData) => {
     card.querySelector(".apartment-card .bottom .beds").textContent = cardData.beds;
     card.querySelector(".apartment-card .bottom .host").textContent = cardData.host;
     card.querySelector(".apartment-card .bottom .price").textContent = cardData.price;
-    card.querySelector(".apartment-card .bottom .total-price").textContent = cardData.totalPrice;
+    
     apartmentCardContainer.appendChild(card);
 }
 
