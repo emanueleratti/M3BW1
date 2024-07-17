@@ -16,7 +16,13 @@ ion-icon {
   height: 48px;
   }
 
+#star-float-card {
+  color: pink;
+  height: 30px;
+  width: 30px;
+}
 
-h4 {
-  font-weight: bold;
+
+.top-card {
+  height: 70px;
 }
