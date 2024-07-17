@@ -4,4 +4,19 @@
 .fonts p {
 font-size: 8px;
 }
+/*Ho centrato il contenitore della Row perché se lo mettevo nel carb-body mi dava problemi */
+.row{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card-body{
+   padding: 10px;
+    transition: 0.3s;
+   
+}
+.card-body:hover{
+    transform: scale(1.2);
+}
 
