@@ -13,6 +13,24 @@
     <link rel="stylesheet" href="./css/pagina-3.css" />
   </head>
 
+  
+  <header class="container-fluid bg-white py-2">
+    <nav class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-between">
+                <div class="logo"><a href="./index.html"><img src="./assets/logo-pink.png" alt="" width="90"></a></div>
+                <div class="user d-flex gap-4 align-items-center">
+                    <a class="grey" href="#">Become a host</a>
+                    <a class="globe" href="#"><ion-icon name="globe-outline"></ion-icon></a>
+                    <div class="user-menu d-flex gap-2 bg-white align-items-center p-1 rounded-4">
+                        <a class="menu" href="#"><ion-icon name="menu-outline"></ion-icon></a>
+                        <a class="user" href="#"><ion-icon name="person-circle"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
   <body>
     <div class="container mt-5">
       <div class="row d-flex">
@@ -20,19 +38,21 @@
         <div class="col-6 d-flex">
           <p class="text-muted">4.0 · 6 reviews · Inverness</p>
         </div>
-        <div class="col-6 icon d-flex justify-content-end">
-          <a href="#"><ion-icon name="share-outline"></ion-icon> Share</a>
-          <a href="#"><ion-icon name="heart-outline"></ion-icon> Like</a>
+        <div class="col-6 icon d-flex">
+          
+          <a href="#" class="top-link text-secondary text-center"><ion-icon name="share-outline"></ion-icon> Share</a>
+        
+          <a href="#" class="top-link text-secondary"><ion-icon name="heart-outline"></ion-icon> Like</a>
         </div>
       </div>
-    </div>
+    </div>  
 
     <div class="container foto mt-3">
       <div class="row">
-        <div class="col-md-6 col-12 mb-2 overflow-hidden rounded-4 ">
+        <div class="col-md-6 col-12 mb-2 overflow-hidden rounded-4 img-top">
           <img
             src="./assets/1.webp"
-            class="h-100 pb-2"
+            class="h-100 "
             alt="image1"
           />
         </div>
@@ -41,28 +61,28 @@
             <div class="col-md-6 col-4 mb-2">
               <img
                 src="./assets/2.webp"
-                class="img-fluid rounded mb-2"
+                class="img-fluid rounded mb-2 img-top"
                 alt="image2"
               />
             </div>
-            <div class="col-md-6 col-4 mb-2">
+            <div class="col-md-6 col-4 mb-2 ">
               <img
                 src="./assets/3.webp"
-                class="img-fluid rounded"
+                class="img-fluid rounded img-top "
                 alt="image3"
               />
             </div>
             <div class="col-md-6 col-4 mb-2">
               <img
                 src="./assets/4.webp"
-                class="img-fluid rounded mb-2"
+                class="img-fluid rounded mb-2 img-top"
                 alt="image4"
               />
             </div>
-            <div class="col-md-6 col-4 mb-2">
+            <div class="col-md-6 col-4 mb-2 ">
               <img
                 src="./assets/5.webp"
-                class="img-fluid rounded"
+                class="img-fluid rounded img-top"
                 alt="image5"
               />
             </div>
@@ -152,7 +172,7 @@
             </div>
           </div>
          </div>
-         <div class="col-4 ">
+         <div class="col-md-4 mt-md-0 mt-5">
           <div class="floated-card shadow p-3 mb-5 bg-body rounded">
           <div class="title-float-card d-flex justify-content-between p-2 gap-3 ">
             <h5>Add dates to see the prices</h5>
@@ -161,7 +181,7 @@
               <p>4.0, 6 reviews</p>
             </div>
           </div>
-          <div class="floated-card-input   ">
+          <div class="floated-card-input">
 
             <div class="input-group d-flex" id="floatInput">
               <input type="date" id="dateStart" name="dateStart" class="w-50 ">
@@ -220,7 +240,7 @@
     </section>
 
     <section class="reviews-card">
-      <div class="container">
+      <div class="container fluid">
         <div class="row mt-5">
           <div class="col-sm-6">
             <div class="card-container">
@@ -276,6 +296,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="./js/pagina-3.js"></script>
   </body>
 </html>
 
