@@ -11,16 +11,37 @@
 </head>
 
 <body>
-    
+    <header class="container-fluid bg-black py-2">
+        <nav class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between">
+                    <div class="logo"><img src="./assets/logo.png" alt="" width="90"></div>
+                    <div class="links d-flex gap-5 align-items-center">
+                        <a class="white" href="#">Place to stay</a>
+                        <a class="white" href="#">Experiences</a>
+                        <a class="white" href="#">Online Experiences</a>
+                    </div>
+                    <div class="user d-flex gap-4 align-items-center">
+                        <a class="white" href="#">Become a host</a>
+                        <a class="globe" href="#"><ion-icon name="globe-outline"></ion-icon></a>
+                        <div class="user-menu d-flex gap-2 bg-white align-items-center p-1 rounded-4">
+                            <a class="menu" href="#"><ion-icon name="menu-outline"></ion-icon></a>
+                            <a class="user" href="#"><ion-icon name="person-circle"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <section class="container-fluid">
-        
-        <div class="row">
+        <div class="row d-flex">
             <div class="col-12 col-md-3 d-flex flex-column justify-content-center text-white p-5" id="titolo">
                 <h1 class="title ">Go <br> Near</h1>
                 <button type="button" class="btnhead">Explore Nearby Stays</button>
             </div>
             <div class=" col-md-9 text-white">
-                <form class=" form d-flex">
+                <form class="form d-flex">
                     <div class="col-6  inForm m-2">
                         <div class="d-flex pt-2 text-black justify-content-between align-items-center p-2"  style="width: 95%;">
                             <div>
@@ -29,31 +50,20 @@
                             </div>
                             <div>
                                 <label for="start">Check-in</label>
-
                                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
                             </div>
                             <div>
                                 <label for="start">Check-out</label>
-
                                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
                             </div>
                             <div>
-                                  <label for="name" >Guests</label>
-
-                            <input type="number" placeholder="Add Guests" id="tentacles" name="tentacles" min="1" max="100" />
+                                <label for="name" >Guests</label>
+                                <input type="number" placeholder="Add Guests" id="tentacles" name="tentacles" min="1" max="100" />
                             </div>
-                          
-                           
-                            <button class=" button">
-                                <ion-icon name="search-outline"></ion-icon>
-                            </button>
+                            <button class=" button"><ion-icon name="search-outline"></ion-icon></button>
                         </div>
-                       
                     </div>
-
                 </form>
-
-
             </div>
         </div>
     </section>
@@ -63,98 +73,105 @@
         <div class="container">
             <div class="row d-flex g-4  p-2">
                 <div class="col-12 col-md-6 col-lg-3 ">
-                    <div class="card-body d-flex gx-1 p-2">
-                        <div class="img-container mx-2"><img class="rounded-4
-                            " src="https://picsum.photos/90/80" alt=""></div>
-                        <div class=" fonts d-flex flex-column justify-content-end">
-                            <h3>genova</h3>
-                            <p> 14 mins drive</p>
+                    <a href="pagina-2.html">
+                        <div class="card-body d-flex gx-1 p-2">
+                            <div class="img-container mx-2"><img class="rounded-4
+                                " src="https://picsum.photos/90/80" alt=""></div>
+                            <div class=" fonts d-flex flex-column justify-content-end">
+                                <h3>genova</h3>
+                                <p> 14 mins drive</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card-body d-flex gx-1 p-2">
-                        <div class="img-container mx-2"><img class="rounded-4
-                            " src="https://picsum.photos/90/80" alt=""></div>
-                        <div class=" fonts d-flex flex-column justify-content-end">
-                            <h3>Inverness</h3>
-                            <p>2 hrs flight</p>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <a href="pagina-2.html">
+                        <div class="card-body d-flex gx-1 p-2">
+                            <div class="img-container mx-2"><img class="rounded-4
+                                " src="https://picsum.photos/90/80" alt=""></div>
+                            <div class=" fonts d-flex flex-column justify-content-end">
+                                <h3>genova</h3>
+                                <p> 14 mins drive</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card-body d-flex gx-1 p-2">
-                        <div class="img-container mx-2"><img class="rounded-4
-                            " src="https://picsum.photos/90/80" alt=""></div>
-                        <div class=" fonts d-flex flex-column justify-content-end">
-                            <h3>Edimburgh</h3>
-                            <p> 1.5 hrs flight </p>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <a href="pagina-2.html">
+                        <div class="card-body d-flex gx-1 p-2">
+                            <div class="img-container mx-2"><img class="rounded-4
+                                " src="https://picsum.photos/90/80" alt=""></div>
+                            <div class=" fonts d-flex flex-column justify-content-end">
+                                <h3>genova</h3>
+                                <p> 14 mins drive</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card-body d-flex gx-4 p-2">
-                        <div class="img-container mx-2"><img class="rounded-4
-                            " src="https://picsum.photos/90/80" alt=""></div>
-                        <div class=" fonts d-flex flex-column justify-content-end">
-                            <h3>Rapallo</h3>
-                            <p> 2 hrs drive </p>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <a href="pagina-2.html">
+                        <div class="card-body d-flex gx-1 p-2">
+                            <div class="img-container mx-2"><img class="rounded-4
+                                " src="https://picsum.photos/90/80" alt=""></div>
+                            <div class=" fonts d-flex flex-column justify-content-end">
+                                <h3>genova</h3>
+                                <p> 14 mins drive</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <a href="pagina-2.html">
+                        <div class="card-body d-flex gx-1 p-2">
+                            <div class="img-container mx-2"><img class="rounded-4
+                                " src="https://picsum.photos/90/80" alt=""></div>
+                            <div class=" fonts d-flex flex-column justify-content-end">
+                                <h3>genova</h3>
+                                <p> 14 mins drive</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <a href="pagina-2.html">
+                        <div class="card-body d-flex gx-1 p-2">
+                            <div class="img-container mx-2"><img class="rounded-4
+                                " src="https://picsum.photos/90/80" alt=""></div>
+                            <div class=" fonts d-flex flex-column justify-content-end">
+                                <h3>genova</h3>
+                                <p> 14 mins drive</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <a href="pagina-2.html">
+                        <div class="card-body d-flex gx-1 p-2">
+                            <div class="img-container mx-2"><img class="rounded-4
+                                " src="https://picsum.photos/90/80" alt=""></div>
+                            <div class=" fonts d-flex flex-column justify-content-end">
+                                <h3>genova</h3>
+                                <p> 14 mins drive</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <a href="pagina-2.html">
+                        <div class="card-body d-flex gx-1 p-2">
+                            <div class="img-container mx-2"><img class="rounded-4
+                                " src="https://picsum.photos/90/80" alt=""></div>
+                            <div class=" fonts d-flex flex-column justify-content-end">
+                                <h3>genova</h3>
+                                <p> 14 mins drive</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
 
 
         </div>
-        <div class="container">
-            <div class="row d-flex  g-4  p-2">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card-body d-flex gx-1 p-2">
-                        <div class="img-container mx-2"><img class="rounded-4
-                            " src="https://picsum.photos/90/80" alt=""></div>
-                        <div class=" fonts d-flex flex-column justify-content-end">
-                            <h3>Milan</h3>
-                            <p> 1.5 hrs drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card-body d-flex gx-1 p-2">
-                        <div class="img-container mx-2"><img class="rounded-4
-                            " src="https://picsum.photos/90/80" alt=""></div>
-                        <div class=" fonts d-flex flex-column justify-content-end">
-                            <h3>Montecarlo</h3>
-                            <p> 2 hr drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card-body d-flex gx-1 p-2">
-                        <div class="img-container mx-2"><img class="rounded-4
-                            " src="https://picsum.photos/90/80" alt=""></div>
-                        <div class=" fonts d-flex flex-column justify-content-end">
-                            <h3>Kirkwall</h3>
-                            <p>1 hr drive</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card-body d-flex gx-1 p-2">
-                        <div class="img-container mx-2"><img class="rounded-4
-                            " src="https://picsum.photos/90/80" alt=""></div>
-                        <div class=" fonts d-flex flex-column justify-content-end">
-                            <h3>Nordkapp</h3>
-                            <p> 14 mins drive</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-
     </main>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
