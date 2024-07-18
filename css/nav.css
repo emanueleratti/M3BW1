@@ -4,6 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+  overflow: hidden;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  border-bottom: solid 2px rgba(128, 128, 128, 0.325);
+  z-index: 3;
+}
 
 a {
     text-decoration: none;
@@ -40,4 +50,26 @@ a.user ion-icon {
 
 .grey {
     color: grey!important;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  right: -200px;
+  width: 200px;
+  height: 100vh;
+  transition: 0.5s ease-in-out;
+}
+
+.sidebar.visible {
+  right: 0;
+}
+
+.sidebar .link {
+  top: 300px;
+}
+
+.sidebar a {
+  color: black;
 }
