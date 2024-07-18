@@ -19,11 +19,13 @@ font-size: 8px;
 .card-body:hover{
     transform: scale(1.2);
 }
-section{
+.section{
     background-image: url(../assets/home.jpg);
     background-size:cover;
     background-position: center;
     height: 70vh;
+    width: 100% !important;
+    
 }
 
 #titolo{
@@ -45,7 +47,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: start;
-    height: 70vh;
+    
 
 }
 .inForm{
@@ -59,11 +61,12 @@ section{
     
 }
 .button{
-    border-radius: 80%;   
-    padding:  8px;
-    font-size: 20px;
-    margin: 15px;
-    background-color: #a02929;
+    border-radius: 50%;   
+   padding: 5px 9px;
+   border: none;
+   margin-right: 10px;
+    font-size: 15px;
+    background-color: #E52C6D;
 }
 label {
     display: block;
@@ -78,10 +81,7 @@ label {
     border: 0px solid transparent;
     border-radius: 50px;
   }
-  
-input{
-    
-}
+
 
 /* GENERAL */
 * {
@@ -126,3 +126,19 @@ a.user ion-icon {
 .grey {
     color: grey!important;
 }
+/*
+.navLarge{
+    width: 100%;
+}
+header nav{
+    margin: 0px 150px;
+    border: 0px solid transparent;
+}
+
+.searchBar .row{
+  
+}
+*/
+
+
+
