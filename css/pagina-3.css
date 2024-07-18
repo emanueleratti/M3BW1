@@ -4,43 +4,74 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  font-size: 12px;
-  line-height: 0px;
-  font-weight: 400;
+body {
+  overflow: hidden;
 }
 
- nav > ion-icon {
-  color: white;
-  line-height: 0px;
+header {
+  position: fixed;
+  background-color: white;
+  border-bottom: solid 2px rgba(128, 128, 128, 0.325);
+  z-index: 3;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 0px;
+    font-weight: 400;
+}
+
+ion-icon {
+    color: white;
+    line-height: 0px;
 }
 
 a.globe ion-icon {
-  width: 16px;
-  height: 16px;
-  color: gray;
+    width: 16px;
+    height: 16px;
 }
 
 a.menu ion-icon {
-  width: 22px;
-  height: 22px;
-  color: grey;
+    width: 22px;
+    height: 22px;
+    color: grey;
 }
 
 a.user ion-icon {
-  width: 28px;
-  height: 28px;
-  color: grey;
+    width: 28px;
+    height: 28px;
+    color: grey;
 }
 
-a.top-link ion-icon {
-  width: 32px;
-  height: 32px;
-  color: gray;
-}
 .white {
-  color:white;
+    color:white;
+}
+
+.grey {
+    color: grey!important;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  right: -200px;
+  width: 200px;
+  height: 100vh;
+  transition: 0.5s ease-in-out;
+}
+
+.sidebar.visible {
+  right: 0;
+}
+
+.sidebar .link {
+  top: 300px;
+}
+
+.sidebar a {
+  color: black;
 }
 
 
