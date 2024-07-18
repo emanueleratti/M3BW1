@@ -12,7 +12,7 @@
         <nav class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-between">
-                    <div class="logo"><img src="./assets/logo-pink.png" alt="" width="90"></div>
+                    <a href="index.html" class="logo"><img src="./assets/logo-pink.png" alt="" width="90"></a>
                     <div class="user d-flex gap-4 align-items-center">
                         <a class="grey" href="#">Become a host</a>
                         <a class="globe" href="#"><ion-icon name="globe-outline"></ion-icon></a>
@@ -27,7 +27,7 @@
     </header>
 
     <section class="container d-flex flex-column gap-4 py-5">
-        <div class="row">
+        <div class="row mt-4">
             <div class="col-12 d-flex flex-column gap-2">
                 <span>10 Stays</span>
                 <div class="d-flex gap-3 align-items-center">
@@ -54,11 +54,12 @@
         </div>
         <div class="row apartment-card-container">
             <template id="apartment-card-template">
-                <a href="pagina-3.html" class="col-10 col-sm-6 col-md-4 col-lg-3 apartment-card mb-3 mb-lg-5">
+                <div class="col-10 col-sm-6 col-md-4 col-lg-3 apartment-card mb-3 mb-lg-5">
+                  <a href="pagina-3.html">
                     <div class="top overflow-hidden w-100 rounded-2 justify-content-center">
-                        <img class="img-fluid" src="" alt="">
+                         <img class="img-fluid" src="" alt="">
                     </div>
-                    <div class="bottom">
+                     <div class="bottom">
                         <div class="d-flex gap-1 align-items-center">
                             <h6 class="type bold"></h6>
                             <span>•</span>
@@ -76,11 +77,41 @@
                             <h6 class="price bold"></h6>
                         </div>
                     </div>
-                </a>
+                  </a>
+                </div>
             </template>
             </a>
         </div>
     </section>
+    <footer>
+      <div class="row container-fluid border-top">
+        <div class="col-10 col-lg-6">
+          <ul class="list-unstyled d-flex gap-2">
+            <li>2024 airbnb,inc.</li>
+            <span>•</span>
+            <li>Privacy</li>
+            <span>•</span>
+            <li>Mappa del sito</li>
+            <span>•</span>
+            <li>Dettagli dell'azienda</li>
+          </ul>
+        </div>
+        <div class="col-10 col-lg-6">
+          <ul class="list-unstyled d-flex gap-4 justify-content-end">
+           
+              <li class="d-flex gap-1">
+                <ion-icon name="globe-outline"></ion-icon> Italiano (IT)
+              </li>
+              <li class="bold">€ EUR</li>
+              <li><ion-icon name="logo-facebook"></ion-icon></li>
+              <li><ion-icon name="logo-twitter"></ion-icon></li>
+              <li><ion-icon name="logo-instagram"></ion-icon></li>
+           
+          </ul>
+        </div>
+
+      </div>
+    </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

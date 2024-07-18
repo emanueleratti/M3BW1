@@ -54,7 +54,7 @@ h6 {
   box-sizing: border-box;
 }
 
-a {
+nav a {
   text-decoration: none;
   font-size: 12px;
   line-height: 0px;
@@ -84,9 +84,29 @@ a.user ion-icon {
 }
 
 .white {
-  color:white;
+  color: white;
 }
 
 .grey {
-  color: grey!important;
+  color: grey !important;
+}
+
+.bottom {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+li ion-icon {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+footer {
+  margin: 0px 100px;
 }
