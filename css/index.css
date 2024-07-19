@@ -1,39 +1,41 @@
-.fonts h3{
+.fonts h3 {
     font-size: 15px;
 }
+
 .fonts p {
-font-size: 8px;
+    font-size: 8px;
 }
-/*Ho centrato il contenitore della Row perché se lo mettevo nel carb-body mi dava problemi */
-.row{ 
+
+.row {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
-.card-body{
-   padding: 10px;
+
+.card-body {
+    padding: 10px;
     transition: 0.3s;
-   
+
 }
-.card-body:hover{
+
+.card-body:hover {
     transform: scale(1.2);
 }
-.section{
+
+.section {
     background-image: url(../assets/home.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     height: 70vh;
     width: 100% !important;
-    
 }
 
-#titolo{
+#titolo {
     height: 70vh;
 }
 
-
-.title{
+.title {
     font-size: 100px;
 }
 
@@ -42,129 +44,114 @@ font-size: 8px;
     padding: 5px;
     width: 170px;
 }
-.form{
-    
+
+.form {
     display: flex;
     justify-content: center;
     align-items: start;
-    
+}
 
-}
-.inForm{
-   background-color: white;
-   width: 650px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    
-}
-.button{
-    border-radius: 50%;   
-   padding: 5px 9px;
-   border: none;
-   margin-right: 10px;
+.button {
+    border-radius: 50%;
+    padding: 5px 9px;
+    border: none;
+    margin-right: 10px;
     font-size: 15px;
     background-color: #E52C6D;
 }
+
 label {
     display: block;
     font:
-      1rem 'Fira Sans',
-      sans-serif;
-  }
-  
-  input,
-  label {
+        1rem 'Fira Sans',
+        sans-serif;
+}
+
+input,
+label {
     margin: 0.4rem 0;
     border: 0px solid transparent;
     border-radius: 50px;
-  }
+}
 
-
-  body {
-    overflow: hidden;
-  }
-  
-  header {
+header {
     position: fixed;
+    top: 0;
     background-color: white;
     border-bottom: solid 2px rgba(128, 128, 128, 0.325);
     z-index: 3;
-  }
-  
-  a {
-      text-decoration: none;
-      font-size: 12px;
-      line-height: 0px;
-      font-weight: 400;
-  }
-  
-  ion-icon {
-      color: white;
-      line-height: 0px;
-  }
-  
-  a.globe ion-icon {
-      width: 16px;
-      height: 16px;
-  }
-  
-  a.menu ion-icon {
-      width: 22px;
-      height: 22px;
-      color: grey;
-  }
-  
-  a.user ion-icon {
-      width: 28px;
-      height: 28px;
-      color: grey;
-  }
-  
-  .white {
-      color:white;
-  }
-  
-  .grey {
-      color: grey!important;
-  }
-  
-  .sidebar {
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 0px;
+    font-weight: 400;
+    color: black;
+}
+
+ion-icon {
+    color: white;
+    line-height: 0px;
+}
+
+a.globe ion-icon {
+    width: 16px;
+    height: 16px;
+}
+
+a.menu ion-icon {
+    width: 22px;
+    height: 22px;
+    color: grey;
+}
+
+a.user ion-icon {
+    width: 28px;
+    height: 28px;
+    color: grey;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: grey !important;
+}
+
+.sidebar {
+    background: white;
     position: absolute;
     top: 0;
-    z-index: -1;
-    right: -200px;
-    width: 200px;
+    z-index: 1;
+    right: -250px;
+    width: 250px;
     height: 100vh;
     transition: 0.5s ease-in-out;
-  }
-  
-  .sidebar.visible {
+}
+
+.sidebar.visible {
     right: 0;
-  }
-  
-  .sidebar .link {
+    position: fixed;
+}
+
+.sidebar .link {
     top: 300px;
-  }
-  
-  .sidebar a {
+}
+
+.sidebar a {
     color: black;
+}
+
+.searchBar {
+    margin-top: 63px;
+}
+
+li ion-icon {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
   }
-/*
-.navLarge{
-    width: 100%;
-}
-header nav{
-    margin: 0px 150px;
-    border: 0px solid transparent;
-}
-
-.searchBar .row{
-  
-}
-*/
-
-
-

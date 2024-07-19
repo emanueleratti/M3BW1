@@ -8,7 +8,6 @@ const apartments = {
         beds: "2 Letti",
         host: "Stefania",
         price: 179
-        
     },
     {
         img: "./assets/genova-8.jpeg", 
@@ -18,7 +17,6 @@ const apartments = {
         beds: "2 Letti",
         host: "Stefania",
         price: 179
-        
     },
     {
         img: "./assets/genova-3.jpeg", 
@@ -28,7 +26,6 @@ const apartments = {
         beds: "2 Letti",
         host: "Stefania",
         price: 179
-        
     },
     {
         img: "./assets/genova-4.jpeg", 
@@ -38,7 +35,6 @@ const apartments = {
         beds: "2 Letti",
         host: "Stefania",
         price: 179
-        
     },
     {
         img: "./assets/genova-7.jpeg", 
@@ -48,7 +44,6 @@ const apartments = {
         beds: "2 Letti",
         host: "Stefania",
         price: 179
-        
     },
     {
         img: "./assets/genova-6.jpeg", 
@@ -58,7 +53,6 @@ const apartments = {
         beds: "2 Letti",
         host: "Stefania",
         price: 179
-        
     },
     {
         img: "./assets/genova-3.jpeg", 
@@ -68,7 +62,6 @@ const apartments = {
         beds: "2 Letti",
         host: "Stefania",
         price: 179
-       
     },
     {
         img: "./assets/genova-7.jpeg", 
@@ -78,7 +71,6 @@ const apartments = {
         beds: "2 Letti",
         host: "Stefania",
         price: 179
-        
     },
     {
         img: "./assets/genova-4.jpeg", 
@@ -88,9 +80,34 @@ const apartments = {
         beds: "2 Letti",
         host: "Stefania",
         price: 179
-        
     },
-    
+    {
+        img: "./assets/genova-4.jpeg", 
+        type: "Apartment",
+        city: "Rapallo",
+        rating: "4,86 (7)",
+        beds: "2 Letti",
+        host: "Stefania",
+        price: 179
+    },
+    {
+        img: "./assets/genova-4.jpeg", 
+        type: "Apartment",
+        city: "Rapallo",
+        rating: "4,86 (7)",
+        beds: "2 Letti",
+        host: "Stefania",
+        price: 179
+    },
+    {
+        img: "./assets/genova-4.jpeg", 
+        type: "Apartment",
+        city: "Rapallo",
+        rating: "4,86 (7)",
+        beds: "2 Letti",
+        host: "Stefania",
+        price: 179
+    },    
     ],
 }
 
